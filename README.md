@@ -56,46 +56,7 @@ The **Hotel Reservation System** is a complete Java desktop application built us
 - **Constructor Overloading** – Multiple constructors in `Customer`, `Room`, `Reservation`, `Payment`
 - **Classes & Objects** – Full OOP design with model, database, and GUI layers
 
----
-
-## 📁 Project Structure
-
-```
-projectlab/
-├── src/
-│   ├── Main.java                       ← App entry point
-│   ├── database/
-│   │   └── DatabaseConnection.java     ← JDBC SQLite connection & schema
-│   ├── model/
-│   │   ├── Person.java                 ← Abstract base class
-│   │   ├── Customer.java               ← Inherits Person
-│   │   ├── Admin.java                  ← Inherits Person
-│   │   ├── Room.java                   ← Room model
-│   │   ├── Reservation.java            ← Reservation model
-│   │   └── Payment.java                ← Payment model
-│   └── gui/
-│       ├── LoginForm.java
-│       ├── AdminDashboard.java
-│       ├── CustomerDashboard.java
-│       ├── CustomerRegistrationForm.java
-│       ├── CustomerManagement.java
-│       ├── RoomManagement.java
-│       ├── ReservationManagement.java
-│       ├── PaymentManagement.java
-│       ├── ReportsForm.java
-│       └── RoomBrowsing.java
-├── lib/
-│   └── sqlite-jdbc.jar                 ← SQLite JDBC driver
-├── database/                           ← Auto-created hotel.db goes here
-├── docs/
-│   ├── Name Roha Sardar.docx          ← Phase 1 Proposal
-│   ├── Report.docx                    ← Final Documentation Report
-│   └── Presentation.pptx             ← Presentation Slides
-├── run.bat                             ← One-click compile & run script
-└── README.md
-```
-
----
+--
 
 ## 🚀 Installation & Running Steps
 
@@ -122,16 +83,6 @@ java -cp "bin;lib/sqlite-jdbc.jar" Main
 
 ---
 
-## 🔑 Default Login Credentials
-
-| Role | Username | Password |
-|---|---|---|
-| Admin | `admin` | `admin123` |
-| Customer | `customer` | `customer123` |
-
-> The database (`database/hotel.db`) is auto-created on first launch with these default accounts and 3 sample rooms.
-
----
 
 ## 🗄 Database Schema
 
@@ -155,9 +106,6 @@ java -cp "bin;lib/sqlite-jdbc.jar" Main
 
 ---
 
-## 📸 Screenshots
-
-> Screenshots of the running application are located in the `docs/` folder.
 
 ---
 

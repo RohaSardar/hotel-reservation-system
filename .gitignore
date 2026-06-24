@@ -1,0 +1,24 @@
+# Compiled Java class files
+bin/
+*.class
+
+# Database file (generated at runtime)
+database/hotel.db
+
+# Receipt text files (generated at runtime)
+Receipt_*.txt
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.settings/
+.classpath
+.project
+
+# Windows thumbnails
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
